@@ -1,10 +1,71 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>I`m Pawel Lazarew</title>
-    </head>
-    <body>
-        <h1>Hello World</h1>
-        <p>I'm hosted with GitHub Pages.</p>
-    </body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#191e1c">
+  <meta name="description" content="Pavel Lazarev — AI Engineer with a decade of iOS experience. Building tools for coding agents, apps and games. Creator of Pult and gamedev-forge.">
+  <meta property="og:title" content="Pavel Lazarev — Engineering workshop">
+  <meta property="og:description" content="From a working idea to a working tool. Agents, apps and games.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pawellazarew.github.io/">
+  <link rel="canonical" href="https://pawellazarew.github.io/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Pavel Lazarev — Engineering workshop</title>
+</head>
+<body>
+  <a class="skip" href="#main" data-en="Skip to content" data-ru="К содержимому">Skip to content</a>
+  <header class="nav wrap">
+    <a class="wordmark" href="#" aria-label="Pavel Lazarev, home">pl<span>_</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#work" data-en="Selected work" data-ru="Проекты">Selected work</a>
+      <a href="#about" data-en="About" data-ru="Обо мне">About</a>
+      <a href="#contact" data-en="Contact" data-ru="Контакты">Contact</a>
+    </nav>
+    <button id="language" type="button" aria-label="Switch to Russian">RU <span aria-hidden="true">↗</span></button>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="intro">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> <span data-en="Pavel Lazarev / AI Engineer" data-ru="Павел Лазарев / AI Engineer">Pavel Lazarev / AI Engineer</span></p>
+        <h1 id="intro" data-en="From a working idea&lt;br&gt;to a &lt;em&gt;working tool.&lt;/em&gt;" data-ru="От рабочей идеи&lt;br&gt;до &lt;em&gt;рабочего инструмента.&lt;/em&gt;">From a working idea<br>to a <em>working tool.</em></h1>
+        <p class="lede" data-en="I build tools that help coding agents do useful work. A decade in iOS. Now working on the context, tools and feedback around AI." data-ru="Делаю инструменты, с которыми AI-агенты приносят пользу. За плечами — десять лет в iOS. Сейчас мой фокус — контекст, инструменты и обратная связь для AI.">I build tools that help coding agents do useful work. A decade in iOS. Now working on the context, tools and feedback around AI.</p>
+        <a class="button" href="#work"><span data-en="Explore the workbench" data-ru="Посмотреть проекты">Explore the workbench</span><span aria-hidden="true">↓</span></a>
+        <p class="hero-foot" data-en="AGENTS / APPS / GAMES" data-ru="АГЕНТЫ / ПРИЛОЖЕНИЯ / ИГРЫ">AGENTS / APPS / GAMES</p>
+      </div>
+      <div class="machine" aria-label="Interactive development workflow">
+        <div class="machine-top"><span data-en="THE FEEDBACK LOOP" data-ru="ЦИКЛ ОБРАТНОЙ СВЯЗИ">THE FEEDBACK LOOP</span><span aria-hidden="true">↗</span></div>
+        <div class="machine-grid">
+          <div class="track" aria-hidden="true"></div>
+          <div class="machine-center" aria-hidden="true">&gt;_</div>
+          <button class="node n1 active" type="button" data-step="0" aria-pressed="true"><span>01</span><b data-en="Context" data-ru="Контекст">Context</b></button>
+          <button class="node n2" type="button" data-step="1" aria-pressed="false"><span>02</span><b data-en="Build" data-ru="Разработка">Build</b></button>
+          <button class="node n3" type="button" data-step="2" aria-pressed="false"><span>03</span><b data-en="Inspect" data-ru="Проверка">Inspect</b></button>
+          <button class="node n4" type="button" data-step="3" aria-pressed="false"><span>04</span><b data-en="Improve" data-ru="Доработка">Improve</b></button>
+        </div>
+        <div class="readout" aria-live="polite" aria-atomic="true"><span id="step-number">01 / 04</span><p id="step-description">Give the agent the right knowledge, constraints and task.</p></div>
+        <p class="machine-hint" data-en="Select a step to look inside the loop." data-ru="Выбери этап, чтобы заглянуть внутрь.">Select a step to look inside the loop.</p>
+      </div>
+    </section>
+    <section class="work" id="work" aria-labelledby="work-title">
+      <div class="wrap">
+        <div class="section-head"><div><p class="eyebrow" data-en="01 / SELECTED WORK" data-ru="01 / ПРОЕКТЫ">01 / SELECTED WORK</p><h2 id="work-title" data-en="On my workbench." data-ru="На моём верстаке.">On my workbench.</h2></div><p data-en="Open-source tools.&lt;br&gt;Built from everyday friction." data-ru="Открытые инструменты.&lt;br&gt;Из повседневных неудобств.">Open-source tools.<br>Built from everyday friction.</p></div>
+        <article class="project">
+          <div class="project-art pult-art" aria-hidden="true"><div class="mini-window"><div class="window-bar"><i></i><i></i><i></i><span>PULT / INBOX</span></div><div class="mini-body"><div class="mini-sidebar">SESSIONS<br><br><span>● Claude Code</span><br>● Codex<br>● Claude Code</div><div class="mini-chat"><small>CLAUDE CODE</small><p>Ready for your review.</p><div class="code-lines"><i></i><i></i><i></i></div><div class="approval">Run the checks? <strong>Allow ↗</strong></div></div></div></div><span class="art-caption">ONE PLACE. SEVERAL AGENTS.</span></div>
+          <div class="project-copy"><p class="eyebrow">01 / DEVELOPER TOOLS</p><h3>Pult<span>↗</span></h3><p data-en="Several coding agents. One place to keep up." data-ru="Несколько AI-агентов. Одно место для работы с ними.">Several coding agents. One place to keep up.</p><p class="project-detail" data-en="A desktop app and CLI for Claude Code and Codex. Run parallel sessions, keep conversations across restarts and handle permission requests in one Inbox." data-ru="Приложение и CLI для Claude Code и Codex. Параллельные сессии, сохранение бесед между перезапусками и единый Inbox для запросов разрешений.">A desktop app and CLI for Claude Code and Codex. Run parallel sessions, keep conversations across restarts and handle permission requests in one Inbox.</p><div class="tags"><span>TypeScript</span><span>React</span><span>Electron</span></div><a class="text-link" href="https://github.com/pawellazarew/pult"><span data-en="Explore Pult" data-ru="Открыть Pult">Explore Pult</span> ↗</a></div>
+        </article>
+        <article class="project">
+          <div class="project-art forge-art" aria-hidden="true"><div class="forge-terminal"><p>$ forge play</p><div><span>01</span> BROWSER CHECKS <b>✓</b></div><div><span>02</span> SCRIPTED PLAY <b>✓</b></div><div><span>03</span> SCREENSHOTS <b>✓</b></div><div><span>04</span> BALANCE SIMULATION <b>✓</b></div><footer>BUILD → PLAY → INSPECT → IMPROVE</footer></div><span class="art-caption">CLOSE THE FEEDBACK LOOP.</span></div>
+          <div class="project-copy"><p class="eyebrow">02 / GAME DEVELOPMENT</p><h3>gamedev-forge<span>↗</span></h3><p data-en="Let an agent see what it actually built." data-ru="Дать агенту увидеть то, что он сделал.">Let an agent see what it actually built.</p><p class="project-detail" data-en="Browser checks, scripted play, screenshots, performance measurements and balance simulations. With a Blender toolkit for model previews and sprite atlases." data-ru="Браузерные проверки, игровые сценарии, скриншоты, замеры производительности и симуляция баланса. Плюс инструменты Blender для превью моделей и атласов спрайтов.">Browser checks, scripted play, screenshots, performance measurements and balance simulations. With a Blender toolkit for model previews and sprite atlases.</p><div class="tags"><span>JavaScript</span><span>Playwright</span><span>Blender</span></div><a class="text-link" href="https://github.com/pawellazarew/gamedev-forge"><span data-en="Explore gamedev-forge" data-ru="Открыть gamedev-forge">Explore gamedev-forge</span> ↗</a></div>
+        </article>
+        <p class="illustration-note" data-en="Project illustrations are schematic; see the repositories for actual interfaces and commands." data-ru="На иллюстрациях — схемы проектов. Реальные интерфейсы и команды — в репозиториях.">Project illustrations are schematic; see the repositories for actual interfaces and commands.</p>
+      </div>
+    </section>
+    <section class="about wrap" id="about" aria-labelledby="about-title"><div><p class="eyebrow" data-en="02 / THE ENGINEER" data-ru="02 / ОБО МНЕ">02 / THE ENGINEER</p><h2 id="about-title" data-en="Curiosity.&lt;br&gt;Then a working build." data-ru="Сначала интерес.&lt;br&gt;Потом рабочий билд.">Curiosity.<br>Then a working build.</h2></div><div class="about-body"><p data-en="I'm Pavel, an AI Engineer with ten years of iOS experience. My work centers on agent workflows, knowledge delivery, cross-model review and behavioral evaluations." data-ru="Я Павел, AI Engineer с десятилетним опытом iOS-разработки. Работаю над процессами для агентов, доставкой знаний в контекст, кросс-модельным ревью и поведенческими оценками.">I'm Pavel, an AI Engineer with ten years of iOS experience. My work centers on agent workflows, knowledge delivery, cross-model review and behavioral evaluations.</p><p data-en="I also build my own apps, browser games and developer tools with help from LLMs. They're a place to try an idea, put it under real constraints and learn from what breaks." data-ru="Ещё делаю свои приложения, браузерные игры и инструменты с помощью LLM. Здесь я пробую идеи, проверяю их в реальных условиях и учусь на том, что ломается.">I also build my own apps, browser games and developer tools with help from LLMs. They're a place to try an idea, put it under real constraints and learn from what breaks.</p><div class="toolbox"><span>Swift / SwiftUI / UIKit</span><span>TypeScript / Node.js / React</span><span>Claude Code / Codex</span></div></div></section>
+    <section class="contact wrap" id="contact" aria-labelledby="contact-title"><p class="eyebrow" data-en="03 / SAY HELLO" data-ru="03 / НА СВЯЗИ">03 / SAY HELLO</p><h2 id="contact-title" data-en="Have something&lt;br&gt;worth building?" data-ru="Есть идея,&lt;br&gt;которую стоит собрать?">Have something<br>worth building?</h2><a class="contact-mail" href="mailto:pawellazarew@gmail.com">pawellazarew@gmail.com <span aria-hidden="true">↗</span></a><div class="socials"><a href="https://github.com/pawellazarew">GitHub ↗</a><a href="https://t.me/pavellazarev_ios_developer">Telegram ↗</a></div></section>
+  </main>
+  <footer class="site-footer wrap"><a class="wordmark" href="#">pl<span>_</span></a><span data-en="Pavel Lazarev · Agents, apps & games." data-ru="Павел Лазарев · Агенты, приложения и игры.">Pavel Lazarev · Agents, apps & games.</span><a href="#" data-en="Back to top ↑" data-ru="Наверх ↑">Back to top ↑</a></footer>
+</body>
 </html>
